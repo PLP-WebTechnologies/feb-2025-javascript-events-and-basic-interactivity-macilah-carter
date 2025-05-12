@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  button {
+    margin: 10px;
+  }
+  #secretBox {
+    padding: 10px;
+    border: 1px dashed gray;
+    width: fit-content;
+    cursor: pointer;
+  }
+  .tabs {
+    margin-top: 10px;
+  }
+  .fade-box {
+    margin-top: 10px;
+    padding: 20px;
+    background: lightblue;
+    transition: transform 0.5s;
+  }
+  .fade-box:hover {
+    transform: scale(1.1);
+  }
+  #feedback {
+    font-size: 0.9em;
+    color: red;
+  }
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive JS Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Interactive JavaScript Features</h1>
+
+  <!-- Event Handling -->
+  <section>
+    <h2>1. Event Handling</h2>
+    <button id="clickBtn">Click Me</button>
+    <p id="hoverText">Hover over me!</p>
+    <input type="text" id="keypressInput" placeholder="Type something...">
+    <div id="secretBox">Double-click or long-press here</div>
+  </section>
+
+  <!-- Interactive Elements -->
+  <section>
+    <h2>2. Interactive Elements</h2>
+    <button id="colorBtn">Change My Color</button>
+
+    <div class="tabs">
+      <button class="tab" data-tab="1">Tab 1</button>
+      <button class="tab" data-tab="2">Tab 2</button>
+      <div id="tabContent">Click a tab to view content</div>
+    </div>
+
+    <div class="fade-box">Animated Box</div>
+  </section>
+
+  <!-- Form Validation -->
+  <section>
+    <h2>3. Form Validation</h2>
+    <form id="myForm">
+      <input type="text" id="name" placeholder="Name" required><br>
+      <input type="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <span id="feedback"></span><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="index.js"></script>
+</body>
+</html>
